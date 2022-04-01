@@ -36,7 +36,7 @@ Pygments is used to generate syntax for the codeblocks.
 
 ## content/
 
-Contains the markdown files.
+Contains the markdown files and all the website.
 
 ## public/
 
@@ -50,11 +50,17 @@ Static files such as pictures or css.
 
 Raw files that get directly copied into `public/` such as HTML files or an autoindex'd output.
 
+Inside `raw/` there is a subfolder, `archive/pdfs/` which contains all the pdfs of all the old presentations.
+
+The `403.gif`, `403.html`, and `404.html` files are located here.
+
 ## mail/
 
 `mail/` is the working directory and [mhonarc](https://www.mhonarc.org/). 
+
 Put in all the mail archives to `/mail/in/`. 
-You can add multiple archives at once.
+
+You can add multiple archives in `/mail/in/`.
 
 ## templates/
 
